@@ -72,8 +72,6 @@ Kapan Menggunakan Flowchart & Pseudocode
 - Implementation
   Mengimplementasikan solusi dengan struktur yang jelas, aman, efisien, dan mudah dikembangkan. 
 
-
-
 ### Kesalahan problem solving 
 
 1. Langsung Coding
@@ -115,15 +113,15 @@ fix: perbaiki bug hitung rata-rata
 docs: update cara instalasi
 ```
 
-| tipe | Kegunaan |
-|---|---|
-| feat | Menambah fitur baru |
-| fix | Memperbaiki bug |
-| docs | Perubahan dokumentasi saja |
-| style | format / tampilan kode, bukan logika |
-| refactor | Merapikan kode tanpa ubah fungsi |
-| test | Menambah atau mengubah teks | 
-| chore | Tugas rutin | 
+| tipe     | Kegunaan                              |
+|----------|---------------------------------------|
+| feat     | Menambah fitur baru                   |
+| fix      | Memperbaiki bug                       |
+| docs     | Perubahan dokumentasi saja            |
+| style    | format / tampilan kode, bukan logika  | 
+| refactor | Merapikan kode tanpa ubah fungsi      |
+| test     | Menambah atau mengubah teks           | 
+| chore    | Tugas rutin                           | 
 
 # Kesalahan GitHub
 
