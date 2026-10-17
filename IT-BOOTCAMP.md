@@ -50,7 +50,9 @@ Algoritma adalah serangkaian langkah yang disusun secara teratur untuk mencapai 
    ```
 
 2. Flowchart
-   Menuliskan
+   Menuliskan gambar yang menggambarkan alur algoritma menggunakan simbol-simbol visual dan panah untuk menunjukkan urutan proses serta arah pengambilan keputusan.
+
+   ![Flowchart](./img/flowchart.png)
 
 
 Kapan Menggunakan Flowchart & Pseudocode
@@ -98,9 +100,18 @@ Tanpa mengelolaan versi yang baik, perubahan ketiga perkembanganan dapat saling 
 - Conflict: Kondisi ketika perubahan yang berbeda pada bagian yang sama tidak dapat digabungkan secara otomatis. Misal ada 2 versi, itu jangan panik. Github hanya bilang "Kamu mau pakai versi mana? Yang atas atau bawah?"
 - Merge: Proses menggabungkan riwayat komit atau perubahan dari satu branch ke branch lainnya.
 
-Alr kerja git 
+### GitHub for Solo and Team
 
+| Solo | Team|
+|---|---|
+| Tiap commit bagai sebuah checkpoint | Semua orang kerja di salinannya sendiri lalu hasilnya digabung |
+| Salah atau Rusak? Tinggal revert | Logging, siapa mengedit apa akan terlihat |
+| Satu file cukup untuk berbagai versi | Bisa kerja paralel tanpa harus menunggu fitur anggota lain selesai | 
+
+### Normal workflow
+```
 Make sure ambil di source main dulu untuk mengambil update terbaru -> buat branch fitur (Boleh nama berdasarkan nama anggota tim / branch berdasarkan fitur) ->  git add & git commit -> Sebelum pr jangan lupa merge dari main dulu -> PR
+```
 
 ### Conventional commit
 
@@ -125,9 +136,9 @@ docs: update cara instalasi
 
 # Kesalahan GitHub
 
-Konflik itu simpel: "Manasih kodingnan yang bener? Yg versinya si Gilang atau Arif?"
+- **Konflik itu jangan dibawa pusing:** "Manasih kodingnan yang bener? Yg versinya si Gilang atau Arif?"
 
-Menganggap Push itu berarti kode benar: "Selalu Pull Request dulu, jangan langsung di push. Tunggu "
+- **Menganggap Push itu berarti kode benar:** "Selalu Pull Request dulu, jangan langsung di push. Tunggu "
 
 # Aturan Kolaborasi
 
@@ -138,6 +149,7 @@ Menganggap Push itu berarti kode benar: "Selalu Pull Request dulu, jangan langsu
 5. Review Sebelum Merge
 6. Jaga Keamanan dan Perubahan: Jangan mengunggah rahasia/menghapus perubahan anggota lain sembarangan
 
+# Setup for new users
 ```
 git config --global user.name "Nama kamu"
 git config --global user.email "email@kamu.com"
